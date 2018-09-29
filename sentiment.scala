@@ -62,7 +62,7 @@ neg_sent.show(10, false)
 //  To that end - 4 other things come to mind 
 //
 // 1.  I think that - for evaluation - we want to look at something like a confusion matrix and see what kind of split we get in terms of false positives
-//  So for Spark ML we can *easily* do a ROC/AUC analysis which will plot the false positives against the false negatives
+//  So for Spark ML we can *easily* do a ROC/AUC analysis which will plot the true positives against the false positives
 //
 // 2.  We probably want to look at the number of positive cases we get in our train/test sets when we do our split
 //
